@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Please enter your information</h1>
+        <form action="/action_page.php" target="_blank">
+            <fieldset>
+                <legend>Your information:</legend>
+               <label for="firstname">First name:
+               </label>
+               <input type="text" id="firstname" placeholder="Enter your first name">
+               <label for="lastname">Last name:
+               </label>
+               <input type="text" id="lastname" placeholder="Enter your last name"><br>
+               <label for="birthday">Birthday:
+               </label>
+               <input type="date" id="birthday" max="2003-12-31" min="1980-12-31"><br>
+               <p>Your education:</p>
+               <label for="highschool">High school
+               </label>
+               <input type="radio" id="highschool">
+               <label for="incollege">In college
+               </label>
+               <input type="radio" id="incollege">
+               <label for="undergraduatedegree">undergraduate degree
+               </label>
+               <input type="radio" id="undergraduatedegree">
+               <label for="ingradschool">In grad school
+               </label>
+               <input type="radio" id="ingradschool">
+               <label for="graduatedegree">Graduate degree
+               </label>
+               <input type="radio" id="graduatedegree"><br>
+               <label for="img">Select image:
+               </label>
+               <input type="file" id="img" accept="image/*" multiple>
+               <label for="favcolor">Select your favourite color:
+               </label>
+               <input type="color" id="favcolor"><br>
+               <label for="email">Your email address:
+               </label>
+               <input type="email" id="email" placeholder="Enter your email"><br>
+                <label for="username">Username:
+                </label>
+                <input type="text" id="username" placeholder="Enter your username">
+                <label for="password">Password:
+                </label>
+                <input type="password" id="password" placeholder="Enter your password"><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"><br><hr>
+            </fieldset>
+        </form>
+        <form action="https://www.google.com/search" target="_blank">
+            <fieldset>
+                <label for="googlesearch">Search in Google:
+                </label>
+                <input type="text" id="googlesearch" name="q">
+                <input type="submit" value="search">
+            </fieldset>
+        </form>
+        <form action="https://www.pinterest.com/search/pins/" target="_blank">
+            <fieldset>
+                <label for="pinterestsearch">Search in Pinterest
+                </label>
+                <input type="text" id="pinterestsearch" name="q">
+                <input type="submit" value="search">
+            </fieldset>
+        </form>
+    </body>
+</html>
